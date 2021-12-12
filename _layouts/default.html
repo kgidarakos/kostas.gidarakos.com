@@ -32,12 +32,6 @@
             <img class="img-circle" rel="prefetch" src="{{site.logo | relative_url}}" alt="Logo">
           {% endif %}
 
-          {% if site.blank_title %}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          {% else %}
-           
-          {% endif %}
-
           {% if site.email %}
             <p class="addr">&#x2709;&nbsp;{{ site.email }}</p>
           {% endif %}
