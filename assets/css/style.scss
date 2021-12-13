@@ -4,9 +4,12 @@
 header {
   img {
     border-radius: 50%;
+    font-size: 16px;
   }
   p {
-    font-size: 30px;
     text-align: center;
+  }
+  p.view {
+    text-align: left;
   }
 }
